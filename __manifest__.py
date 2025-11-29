@@ -12,7 +12,8 @@
     'author' : 'Mahdi Zanganeh',
     'website' : 'www.zedn9ne.com',
     'sequence' : 1 ,
-    'data' : ['views\college_erp_menus.xml'] ,
+    'data' : ["views\college_student.xml",
+              'views\college_erp_menus.xml'],
     'application' : True,
     'auto_install' : True,
     'installable' : True

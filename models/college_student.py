@@ -5,3 +5,4 @@ class CollegeSudent(models.Model):
     _description = "College Student"
     
     admission_no = fields.Char(string="Admission Name" , required = True)
+    student_age = fields.Integer(string="Age" , required=True)
